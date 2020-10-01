@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 
-import "./RickAndMortyApp.css";
+import "./Home.css";
 
 // SECCIÓN 6. VIDEO 69,70
 
-const RickAndMortyApp = () => {
+const Home = () => {
   const [characters, setCharacters] = useState(["Rick", "Morty", "Beth"]);
 
   return (
@@ -20,4 +20,4 @@ const RickAndMortyApp = () => {
   );
 };
 
-export default RickAndMortyApp;
+export default Home;
